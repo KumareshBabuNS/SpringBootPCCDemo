@@ -24,10 +24,10 @@ public class SpringbootPccDemoApplication {
 	@PostConstruct
 	public void init()
 	{
-		employeeRepository.save(new Employee(new Long(1), "pas", "apicella"));
-		employeeRepository.save(new Employee(new Long(2), "lucia", "apicella"));
-		employeeRepository.save(new Employee(new Long(3), "lucas", "apicella"));
-		employeeRepository.save(new Employee(new Long(4), "siena", "apicella"));
+		employeeRepository.save(new Employee("1", "pas", "apicella"));
+		employeeRepository.save(new Employee("2", "lucia", "apicella"));
+		employeeRepository.save(new Employee("3", "lucas", "apicella"));
+		employeeRepository.save(new Employee("4", "siena", "apicella"));
 	}
 	*/
 }
