@@ -24,6 +24,18 @@ $ cd spring-cloud-gemfire-connector
 $ gradle clean install
 ```
 
+- Connect to your PCC service using GemFire GFSH as shown below and create the "employee" region
+
+```
+gfsh>create region --name=employee --type=PARTITION
+              Member                | Status
+----------------------------------- | -------------------------------------------------------------------
+cacheserver-PCF-PEZ-Heritage-RP04-1 | Region "/employee" created on "cacheserver-PCF-PEZ-Heritage-RP04-1"
+cacheserver-PCF-PEZ-Heritage-RP04-3 | Region "/employee" created on "cacheserver-PCF-PEZ-Heritage-RP04-3"
+cacheserver-PCF-PEZ-Heritage-RP04-0 | Region "/employee" created on "cacheserver-PCF-PEZ-Heritage-RP04-0"
+cacheserver-PCF-PEZ-Heritage-RP04-2 | Region "/employee" created on "cacheserver-PCF-PEZ-Heritage-RP04-2"
+```
+
 - clone the project code as follows
 
 ```
