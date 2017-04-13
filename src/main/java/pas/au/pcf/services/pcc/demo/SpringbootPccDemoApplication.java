@@ -20,7 +20,6 @@ public class SpringbootPccDemoApplication {
 		SpringApplication.run(SpringbootPccDemoApplication.class, args);
 	}
 
-	/*
 	@PostConstruct
 	public void init()
 	{
@@ -29,5 +28,4 @@ public class SpringbootPccDemoApplication {
 		employeeRepository.save(new Employee("3", "lucas", "apicella"));
 		employeeRepository.save(new Employee("4", "siena", "apicella"));
 	}
-	*/
 }
