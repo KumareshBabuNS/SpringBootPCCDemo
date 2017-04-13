@@ -1,0 +1,8 @@
+---
+applications:
+- name: pas-pcc-springboot
+  random-route: true
+  path: ./target/springboot-pcc-demo-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack_offline
+  services:
+  - pas-pcc
