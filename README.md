@@ -1,8 +1,8 @@
-<h1>Spring Boot Pivotal Cloud Cache</h1>
+<h1>Spring Boot Pivotal Cloud Cache Demo</h1>
 
 The following demo shows how to use Pivotal Cloud Cache from a Spring Boot application.
- 
-IMG HERE
+
+![alt tag](https://image.ibb.co/eGq3fk/pcc_springboot_1.png)
 
 <h2> Steps </h2>
 
